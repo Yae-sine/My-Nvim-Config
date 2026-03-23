@@ -1,12 +1,9 @@
 #include <bits/stdc++.h>
-#include <iostream>
-#include <string>
 using namespace std;
 
 // ===================== SOLUTION =====================
 void solve() {
-
-    cout << "\n";
+  cout << "\n";
 }
 
 
@@ -17,12 +14,12 @@ void solve() {
 // ===================== MAIN =====================
 int main() {
 
-    int t = 1;
-    cin >> t; // comment this if single test case
+  int t = 1;
+  cin >> t; // comment this if single test case
 
-    while (t--) {
-        solve();
-    }
+  while (t--) {
+      solve();
+  }
 
-    return 0;
+  return 0;
 }
