@@ -9,12 +9,15 @@ return {
     },
     opts = {
       lang = "python", -- or "java"
+      storage = {
+        home = "/home/yassine/Documents/My Data/playground/CP_LEET/Problems/Leetcode/",
+        cache = vim.fn.stdpath("cache") .. "/leetcode",
+      },
     },
-
 
     config = function(_, opts)
       require("leetcode").setup(opts)
-      
+
       -- Set up autocommand to enable manual folding for LeetCode files
       vim.api.nvim_create_autocmd("FileType", {
         pattern = "python", -- or whatever filetype your leetcode files use
@@ -28,7 +31,7 @@ return {
               break
             end
           end
-          
+
           if is_leetcode then
             vim.opt_local.foldmethod = "manual"
             vim.opt_local.foldlevel = 99
@@ -37,6 +40,4 @@ return {
       })
     end,
   },
-
-
 }

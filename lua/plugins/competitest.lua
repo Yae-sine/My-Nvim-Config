@@ -9,7 +9,7 @@ return {
         cpp = "/home/yassine/.config/nvim/templates/template.cpp",
         py = "/home/yassine/.config/nvim/templates/template.py",
       },
-      received_problems_path = "/home/yassine/Documents/My Data/playground/CP_LEET/Problems/$(PROBLEM).$(FEXT)",
+      received_problems_path = "/home/yassine/Documents/My Data/playground/CP_LEET/Problems/Codeforces/$(PROBLEM).$(FEXT)",
       received_contests_directory = "/home/yassine/Documents/My Data/playground/CP_LEET/Contests/",
       received_contests_problems_path = "/home/yassine/Documents/My Data/playground/CP_LEET/Contests/$(CONTEST)/$(PROBLEM).$(FEXT)",
     })
